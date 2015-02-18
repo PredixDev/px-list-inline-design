@@ -1,0 +1,29 @@
+{
+  "name": "px-list-inline-design",
+  "version": "0.0.1",
+  "authors": [
+    "General Electric"
+  ],
+  "description": "A simple object to remove bullets and indents from lists",
+  "main": "_objects.list-inline.scss",
+  "keywords": [
+    "sass",
+    "px",
+    "inline",
+    "lists"
+  ],
+  "license": "Apache 2",
+  "homepage": "git://github.sw.ge.com/pxc/px-list-inline-design.git",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "inuit-defaults": "~0.2.0",
+    "px-functions-design": "git://github.sw.ge.com/pxc/px-functions-design.git#master" 
+  }
+}
