@@ -35,7 +35,7 @@ This variable can be customized:
 
     $inuit-list-inline-delimit-character
 
-Basic usage of the List Inline module uses the required class:
+Basic usage of the List Inline module uses one required class:
 
     <ul class="list-inline">
         <li>Foo</li>
@@ -47,7 +47,7 @@ The only valid children of the `.list-inline` node are `<li>`s.
 
 ## Options
 
-Other, optional classes can supplement the required base classes:
+Another, optional, class can supplement the required base class:
 
 * `.list-inline--delimited`: add a character to delimit list items.
 
