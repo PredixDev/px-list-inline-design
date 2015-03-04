@@ -17,7 +17,9 @@ Install this module and its dependencies using bower:
 
 Once installed, `@import` into your project's Sass file in its Objects layer:
 
-    @import "px-list-inline-design/sass/objects.list-inline";
+    @import "../px-list-inline-design/objects.list-inline";
+
+See [px-getting-started](https://github.sw.ge.com/pxc/px-getting-started#a-note-about-relative-import-paths) for an explanation of the `../`
 
 ## Import once
 
