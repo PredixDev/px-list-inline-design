@@ -14,7 +14,7 @@
     "lists"
   ],
   "license": "Apache 2",
-  "homepage": "git://github.sw.ge.com/pxc/px-list-inline-design.git",
+  "homepage": "git://github.sw.ge.com/PXd/px-list-inline-design.git",
   "private": true,
   "ignore": [
     "**/.*",
@@ -25,6 +25,6 @@
   ],
   "dependencies": {
     "inuit-defaults": "~0.2.0",
-    "px-functions-design": "git://github.sw.ge.com/pxc/px-functions-design.git#master" 
+    "px-functions-design": "git://github.sw.ge.com/PXd/px-functions-design.git#master" 
   }
 }
