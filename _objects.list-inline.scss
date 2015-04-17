@@ -6,7 +6,7 @@
  * The list-inline object simply displays a list of items in one line.
  */
 
-@import '../inuit-defaults/settings.defaults';
+@import '../px-defaults-design/settings.defaults';
 @import '../px-functions-design/tools.functions';
 
 @if import-once('objects.list-inline') {
