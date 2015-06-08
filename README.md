@@ -2,24 +2,31 @@
 
 The Predix Experience List Inline module simply displays a list as one horizontal row. This module is a fork of the [inuitcss list-inline module](https://github.com/inuitcss/objects.list-inline).
 
-## Dependencies
+## Demo
 
-Px’s List Inline Module depends on two other Px and inuitcss modules:
+You can review list bare styles and recommended markup here: https://github.build.ge.com/pages/PXd/px-list-inline-design
 
-* [px-defaults-design](https://github.sw.ge.com/PXd/px-defaults-design)
-* [px-functions-design](https://github.sw.ge.com/PXd/px-functions-design)
+## Sass Docs
+
+You can review Sass Documentation here: https://github.build.ge.com/pages/PXd/px-list-inline-design/sassdoc
+
+## Dependency
+
+Px’s List Inline Module depends on one other Px modules:
+
+* [px-defaults-design](https://github.build.ge.com/PXd/px-defaults-design)
 
 ## Installation
 
 Install this module and its dependencies using bower:
 
-    bower install --save https://github.sw.ge.com/PXd/px-list-inline-design.git
+    bower install --save https://github.build.ge.com/PXd/px-list-inline-design.git
 
 Once installed, `@import` into your project's Sass file in its Objects layer:
 
     @import "../px-list-inline-design/objects.list-inline";
 
-See [px-getting-started](https://github.sw.ge.com/PXd/px-getting-started#a-note-about-relative-import-paths) for an explanation of the `../`
+See [px-getting-started](https://github.build.ge.com/PXd/px-getting-started#a-note-about-relative-import-paths) for an explanation of the `../`
 
 ## Import once
 
@@ -59,13 +66,4 @@ For example:
         <li>Foo</li>
         <li>Bar</li>
         <li>Baz</li>
-    </ul>
-
-If you wish to completely remove the whitespace between items, omit the closing
-`</li>` tag:
-
-    <ul class="list-inline">
-        <li>Foo
-        <li>Bar
-        <li>Baz
     </ul>
