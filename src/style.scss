@@ -1,0 +1,20 @@
+$imported-once-files                    : ();
+
+// Generic
+@import "../px-normalize-design/generic.normalize";
+@import "../px-box-sizing-design/generic.box-sizing";
+
+// Base
+@import "../px-viewport-design/base.viewport";
+@import "../px-typography-design/base.typography";
+@import "../px-code-design/base.code";
+
+// List Inline
+$inuit-enable-list-inline--delimited    : true;
+
+@import "../objects.list-inline";
+
+// Trumps
+$inuit-enable-margins--large            : true;
+
+@import "../px-spacing-responsive-design/trumps.spacing-responsive";
