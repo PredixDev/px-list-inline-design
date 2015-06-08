@@ -1,21 +1,21 @@
-/*------------------------------------*\
-    #PX-LIST-INLINE-DESIGN
-\*------------------------------------*/
-
-/**
- * The list-inline object simply displays a list of items in one line.
- */
+////
+/// PX-LIST-INLINE-DESIGN
+/// The list-inline object simply displays a list of items in one line.
+/// @group px-list-inline-design
+////
 
 @import '../px-defaults-design/settings.defaults';
-@import '../px-functions-design/tools.functions';
+
+/// @type String [default] - Prepend value for all generated classes
+$inuit-list-inline-namespace          : $inuit-namespace !default;
+
+/// @type Boolean [default] - Produce CSS for character to delimit list items?
+$inuit-enable-list-inline--delimited  : false !default;
+
+/// @type String [default] - Character to delimit list items
+$inuit-list-inline-delimit-character  : "\00A0|\00A0" !default;
 
 @if import-once('objects.list-inline') {
-  
-  // Predefine the variables below in order to alter and enable specific features.
-  $inuit-list-inline-namespace          : $inuit-namespace !default;
-  
-  $inuit-enable-list-inline--delimited  : false !default;
-  $inuit-list-inline-delimit-character  : ",\00A0" !default;
   
   .#{$inuit-list-inline-namespace}list-inline,
   %#{$inuit-list-inline-namespace}list-inline {
@@ -28,8 +28,6 @@
       }
   
   }
-  
-  
   
   
   
