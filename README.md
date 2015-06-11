@@ -4,7 +4,7 @@ The Predix Experience List Inline module simply displays a list as one horizonta
 
 ## Demo
 
-You can review list bare styles and recommended markup here: https://github.build.ge.com/pages/PXd/px-list-inline-design
+You can review List Inline styles and recommended markup here: https://github.build.ge.com/pages/PXd/px-list-inline-design
 
 ## Sass Docs
 
@@ -12,9 +12,15 @@ You can review Sass Documentation here: https://github.build.ge.com/pages/PXd/px
 
 ## Dependency
 
-Px’s List Inline Module depends on one other Px modules:
+Px’s List Inline Module depends on one other Px module:
 
 * [px-defaults-design](https://github.build.ge.com/PXd/px-defaults-design)
+
+## Upstream dependency
+
+The List Inline module is also an upstream dependency in this meta kit:
+
+* [px-meta-lists-design](https://github.build.ge.com/PXd/px-meta-lists-design)
 
 ## Installation
 
