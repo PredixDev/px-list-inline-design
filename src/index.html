@@ -14,15 +14,38 @@
         <p>
           To use this module, follow the instructions in the
           <a href=https://github.build.ge.com/PXd/px-list-inline-design>README</a>.
+          <!-- build:remove -->
+          (For background on PXd, read the
+          <a href=https://github.build.ge.com/PXd/px-getting-started>Getting Started</a>
+          documentation.)
+          <!-- /build -->
         </p>
-        <a class=btn href=https://github.build.ge.com/PXd/px-list-inline-design>
+        <a class="btn btn--primary" href=https://github.build.ge.com/PXd/px-list-inline-design>
           <i class="fa fa-github u-mr--"></i>
           px-list-inline-design
         </a>
       </div>
+      <h2>How to Use</h2>
+      <p>Install via command line:</p>
+      <figure class="code u-mb+">
+        <code>
+          bower install --save https://github.build.ge.com/PXd/px-list-inline-design.git
+        </code>
+      </figure>
+      <p>Add to component Sass file:</p>
+      <figure class="code u-mb++">
+        <code>
+          @import "px-list-inline-design/_objects.list-inline.scss";
+        </code>
+      </figure>
+      <h3>HTML</h3>
       <figure class="code u-mv+">
         <code>
           &lt;ol class=list-inline&gt;
+          <br>
+          &nbsp;&nbsp;&hellip;
+          <br>
+          &nbsp;&nbsp;&lt;li&gt;&hellip;&lt;/li&gt;
           <br>
           &nbsp;&nbsp;&hellip;
           <br>
@@ -38,9 +61,24 @@
         <li>List Item Six</li>
       </ol>
       <h2>Delimited List</h2>
+      <h3>Sass Flag</h3>
+      <figure class="code">
+        <code>
+          $inuit-enable-list-inline--delimited : true;
+        </code>
+      </figure>
+      <small>
+        Sass flag must be set prior to
+        <code class="code code--inline">@import</code>
+      </small>
+      <h3>HTML</h3>
       <figure class="code u-mb+">
         <code>
           &lt;ul class="list-inline list-inline--delimited"&gt;
+          <br>
+          &nbsp;&nbsp;&hellip;
+          <br>
+          &nbsp;&nbsp;&lt;li&gt;&hellip;&lt;/li&gt;
           <br>
           &nbsp;&nbsp;&hellip;
           <br>
