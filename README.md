@@ -2,13 +2,10 @@
 
 The Predix Experience List Inline module simply displays a list as one horizontal row. This module is a fork of the [inuitcss list-inline module](https://github.com/inuitcss/objects.list-inline).
 
-## Demo
 
-You can review List Inline styles and recommended markup here: https://github.com/pages/PredixDev/px-list-inline-design
 
-## Sass Docs
 
-You can review Sass Documentation here: https://github.com/pages/PredixDev/px-list-inline-design/sassdoc
+
 
 ## Dependency
 
