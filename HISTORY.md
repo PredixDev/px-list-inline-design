@@ -1,3 +1,7 @@
+v0.3.3
+==================
+* updated demo using px-demo
+
 v0.3.2
 ==================
 * changing ghp.sh to account for Alpha releases
