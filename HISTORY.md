@@ -1,6 +1,7 @@
 v1.0.0-prerelease
 ==================
 * updated dependencies for design refresh
+* removed the non-delimited style
 
 v0.3.3
 ==================

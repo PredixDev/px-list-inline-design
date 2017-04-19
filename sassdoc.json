@@ -2,47 +2,21 @@
     {
         "description": "Default list-inline\n",
         "commentRange": {
-            "start": 24,
-            "end": 24
+            "start": 19,
+            "end": 19
         },
         "context": {
             "type": "css",
-            "name": ".#",
-            "value": "$inuit-list-inline-namespace",
+            "name": ".#{$inuit-list-inline-namespace}list-inline,\n%#{$inuit-list-inline-namespace}list-inline",
+            "value": "margin:  0;\n    padding: 0;\n    list-style: none;\n    > li {\n        display: inline-block;\n    }\n    > li + li {\n        &:before {\n            content: \"#{$inuit-list-inline-delimit-character}\";\n            padding-left: $inuit-base-spacing-unit--tiny;\n            padding-right: $inuit-base-spacing-unit--tiny;\n        }\n    }",
             "line": {
-                "start": 25,
-                "end": 46
+                "start": 21,
+                "end": 36
             }
         },
         "group": [
             "px-list-inline-design"
         ],
-        "access": "public",
-        "file": {
-            "path": "_objects.list-inline.scss",
-            "name": "_objects.list-inline.scss"
-        }
-    },
-    {
-        "description": "Enable character to delimit list items?\n",
-        "commentRange": {
-            "start": 14,
-            "end": 16
-        },
-        "context": {
-            "type": "variable",
-            "name": "inuit-enable-list-inline--delimited",
-            "value": "false",
-            "scope": "default",
-            "line": {
-                "start": 17,
-                "end": 17
-            }
-        },
-        "group": [
-            "px-list-inline-design:variables:flag"
-        ],
-        "type": "Boolean [default]",
         "access": "public",
         "file": {
             "path": "_objects.list-inline.scss",
@@ -78,17 +52,17 @@
     {
         "description": "Character to delimit list items\n",
         "commentRange": {
-            "start": 19,
-            "end": 21
+            "start": 14,
+            "end": 16
         },
         "context": {
             "type": "variable",
             "name": "inuit-list-inline-delimit-character",
-            "value": "\"\\00A0|\\00A0\"",
+            "value": "\"|\"",
             "scope": "default",
             "line": {
-                "start": 22,
-                "end": 22
+                "start": 17,
+                "end": 17
             }
         },
         "group": [
