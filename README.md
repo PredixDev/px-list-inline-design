@@ -1,17 +1,17 @@
-# List Inline
+# px-list-inline-design
 
 The Predix UI List Inline module simply displays a list as one horizontal row. This module is a fork of the [inuitcss list-inline module](https://github.com/inuitcss/objects.list-inline).
 
 
 ## Dependency
 
-Predix UI's List Inline Module depends on one other Px module:
+The px-list-inline-design module depends on one other Px module:
 
 * [px-defaults-design](https://github.com/PredixDev/px-defaults-design)
 
 ## Upstream dependency
 
-The List Inline module is also an upstream dependency in this meta kit:
+The px-list-inline-design module is also an upstream dependency in this meta kit:
 
 * [px-meta-lists-design](https://github.com/PredixDev/px-meta-lists-design)
 
