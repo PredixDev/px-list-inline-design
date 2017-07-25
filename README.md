@@ -35,7 +35,7 @@ This variable can be customized:
 
     $inuit-list-inline-delimit-character
 
-Basic usage of the List Inline module uses one required class:
+Basic usage of the `px-list-inline-design` module uses one required class:
 
     <ul class="list-inline">
         <li>Foo</li>
