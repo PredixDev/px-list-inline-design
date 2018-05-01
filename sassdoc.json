@@ -2,16 +2,16 @@
     {
         "description": "Default list-inline\n",
         "commentRange": {
-            "start": 19,
-            "end": 19
+            "start": 35,
+            "end": 35
         },
         "context": {
             "type": "css",
             "name": ".#{$inuit-list-inline-namespace}list-inline,\n%#{$inuit-list-inline-namespace}list-inline",
             "value": "margin:  0;\n    padding: 0;\n    list-style: none;\n    > li {\n        display: inline-block;\n    }\n    > li + li {\n        &:before {\n            content: \"#{$inuit-list-inline-delimit-character}\";\n            padding-left: $inuit-base-spacing-unit--tiny;\n            padding-right: $inuit-base-spacing-unit--tiny;\n        }\n    }",
             "line": {
-                "start": 21,
-                "end": 36
+                "start": 37,
+                "end": 52
             }
         },
         "group": [
@@ -26,8 +26,8 @@
     {
         "description": "Prepend value for all generated classes\n",
         "commentRange": {
-            "start": 9,
-            "end": 11
+            "start": 25,
+            "end": 27
         },
         "context": {
             "type": "variable",
@@ -35,8 +35,8 @@
             "value": "$inuit-namespace",
             "scope": "default",
             "line": {
-                "start": 12,
-                "end": 12
+                "start": 28,
+                "end": 28
             }
         },
         "group": [
@@ -52,8 +52,8 @@
     {
         "description": "Character to delimit list items\n",
         "commentRange": {
-            "start": 14,
-            "end": 16
+            "start": 30,
+            "end": 32
         },
         "context": {
             "type": "variable",
@@ -61,8 +61,8 @@
             "value": "\"|\"",
             "scope": "default",
             "line": {
-                "start": 17,
-                "end": 17
+                "start": 33,
+                "end": 33
             }
         },
         "group": [
