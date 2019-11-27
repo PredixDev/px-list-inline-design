@@ -1,4 +1,4 @@
-<!--
+/*
 Copyright (c) 2018, General Electric
 
 Licensed under the Apache License, Version 2.0 (the "License");
@@ -12,31 +12,31 @@ distributed under the License is distributed on an "AS IS" BASIS,
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
--->
+*/
+/* Common imports */
+/* Common demo imports */
+/* Demo DOM module */
+/* 6: Handle selectedOptions, update demo */
+/*
+  FIXME(polymer-modulizer): the above comments were extracted
+  from HTML and may be out of place here. Review them and
+  then delete this comment!
+*/
+import '@polymer/polymer/polymer-legacy.js';
 
-<!-- Common imports -->
-<link rel="import" href="../../polymer/polymer.html" />
-
-<!-- Common demo imports -->
-<link rel="import" href="../css/px-list-inline-design-demo-styles.html" />
-<link rel="import" href="../../px-sass-doc/px-sass-doc.html" />
-
-<!-- Demo DOM module -->
-<dom-module id="px-list-inline-design-demo">
-  <template>
+import '../css/px-list-inline-design-demo-styles.js';
+import 'px-sass-doc/px-sass-doc.js';
+import { Polymer } from '@polymer/polymer/lib/legacy/polymer-fn.js';
+import { html } from '@polymer/polymer/lib/utils/html-tag.js';
+Polymer({
+  _template: html`
     <!-- 0: Import the styles-->
     <style include="px-list-inline-design-demo-styles" is="custom-style"></style>
 
 <!-- 1: Describe Module -->
-<px-sass-doc
-  module-name="px-list-inline-design"
-  description="The Predix UI List Inline module simply displays a list as a delimited horizontal row."
-  layer="objects"
-  sassdoc-path="sassdoc.json"
-  dependencies='[
-    "https://github.com/PredixDev/px-defaults-design"
-  ]'
-  selected-options="{{selectedOptions}}">
+<px-sass-doc module-name="px-list-inline-design" description="The Predix UI List Inline module simply displays a list as a delimited horizontal row." layer="objects" sassdoc-path="sassdoc.json" dependencies="[
+    &quot;https://github.com/PredixDev/px-defaults-design&quot;
+  ]" selected-options="{{selectedOptions}}">
 
 <!-- 2: Set Options -->
 <!-- N/A -->
@@ -55,7 +55,7 @@ limitations under the License.
 
 <!-- 5: Set Usage HTML -->
 <section slot="usage">
-```
+\`\`\`
 <!-- List Inline -->
 <ul class="list-inline">
   <li>List Item</li>
@@ -63,24 +63,17 @@ limitations under the License.
   <li>List Item</li>
 </ul>
 
-```
+\`\`\`
 </section>
 
 </px-sass-doc>
-</template>
+`,
 
-</dom-module>
+  is: 'px-list-inline-design-demo',
 
-<!-- 6: Handle selectedOptions, update demo -->
-<script>
-  Polymer({
-    is: 'px-list-inline-design-demo',
-
-    attached : function(){
-      this.async(function() {
-        this.fire('px-sass-doc-demo-updated',{})
-      }, 10);
-    }
-
-  });
-</script>
+  attached : function(){
+    this.async(function() {
+      this.fire('px-sass-doc-demo-updated',{})
+    }, 10);
+  }
+});
